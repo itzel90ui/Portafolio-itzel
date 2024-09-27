@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios dinamicos</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <!-- encabezado de la página -->
+    <header>
+        <h1>Bienvenido a mi portafolio</h1>
+    </header>
+    <!-- Sección donde va el formulario -->
+    <section class="SeccionComentarios">
+        <h2>Deja tu comentario</h2>
+        <form id="formularioComentarios">
+            <input type="text" id="nombre" placeholder="Tu nombre"><br><br>
+            <textarea id="comentario" rows="4" placeholder="Escribe tu comentario aquí..."></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <!-- Subsección en donde iran los comentarios -->
+        <h3>Comentarios recientes</h3>
+        <div id="contenedorComentarios">
+            <!-- Aquí se insertarán los comentarios de tus visitantes :D -->
+        </div>
+    </section>
+
+    <script src="blog.js"></script>
+</body>
+</html>
